@@ -8,31 +8,30 @@
 function fbFun(){
 
     // buucle
-    for (i = 1; i <= 10; i++){
+    for (i = 1; i <= 60; i++){
         
         let output = ''
         let text1  = 'Fizz'
         let text2  =  'Buzz'
 
-        if (i % 3 == 0) {
+         if ((i % 3 === 0) && (i % 5 === 0)) {
+            output = text1 + text2 
+            console.log(output);
+
+            output = ''
+        }
+        else if (i % 3 === 0) {
             output = text1
             console.log(output);
         }
 
-        if (i % 5 == 0) {
+        else if (i % 5 === 0) {
             output = text2    
-            console.log(output);
-        }
-
-        if ((i % 3 == 0) && (i % 5 == 0)) {
-            output += text2 
             console.log(output);
         }
         else {
             console.log(i);
         }
-
-        output = '';
     }
 }
 
