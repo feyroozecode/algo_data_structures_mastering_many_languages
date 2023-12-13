@@ -1,5 +1,6 @@
 
 /**
+ * Day 01 => Challenge One
  * Wite a program that prints the numbers from 1 to 100 .
  * But for multiple of three (3) print [Fizz] instead of the number
  * and for multiple of five (5) print [Buzz]
@@ -8,7 +9,6 @@
 function fbFun(){
 
     for (i = 1; i <= 60; i++){
-        
         
         let output = ''
         let text1  = 'Fizz'
@@ -32,6 +32,7 @@ function fbFun(){
         else {
             console.log(i);
         }
+        
     }
 }
 
