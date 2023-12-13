@@ -7,8 +7,8 @@
  */
 function fbFun(){
 
-    // buucle
     for (i = 1; i <= 60; i++){
+        
         
         let output = ''
         let text1  = 'Fizz'
