@@ -1,4 +1,4 @@
-pub fn start() {
+fn main() {
     fizzBuzzer();
 }
 
