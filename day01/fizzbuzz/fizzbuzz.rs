@@ -9,7 +9,7 @@ fn fizzBuzzer() /*-> String*/
     for i in 0..100 {
         let mut output = String::new();
 
-        if i % 3 == 0 && i % 5 == 0 {
+        if i % 3 * 5 == 0 {
             output = responses[0].to_string() + &responses[1].to_string();
 
             println!("{}", output);

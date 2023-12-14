@@ -1,4 +1,7 @@
-
+/**
+ * Day 2 , Challenge 2 => Palindrom String or Number 
+ * Check if Number if reversed have same sense and not changing
+ */
 /**
  * 
  * Function to check if the input is valid and valid
@@ -35,11 +38,15 @@ const checkAndStripAlphaNum = (value) => {
 }
 
 
+/**
+ * Check if var is palindrom and return a Bool with sowing a message
+ */
 const isPalindrom = (value) => {
     let str = checkAndStripAlphaNum(value);
 
     if(str === null ) return false;
 
+    // extract a string to String[] chars remove space and finaly reverse and join the reversed
     checker = str.split('').reverse().join('') === str
 
     if (checker) {

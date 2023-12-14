@@ -10,7 +10,7 @@ Mastering alogorithme and Data Structure in Python and Js
     2. [Reverse String](day01/reverse_str.js) reversing 
    
 - Day 02 =>
-    1. [Factorial](day01/factorial.js)
+    1. [Factorial](day01/factorial.js) 
     2. [Palindrom](day01/palindro.js) Palindrom 
 - Day 03 => 
     1. 
