@@ -1,10 +1,11 @@
 /**
  * Day 2 
- * 
+ * Factorial using recursive function 
+ * Until the value is not equal to zero, the recursive function will call itself. 
+ * Factorial can be calculated using the following recursive formula. 
+ *  n! = n * (n – 1)!
+ *  n! = 1 if n = 0 or n = 1
  */
-
-const { log } = require('console');
-
 function factorial(number) {
     if (number == 0 || number == 1) {
         return 1;
@@ -13,8 +14,9 @@ function factorial(number) {
     return number * factorial(number - 1);
 }
 
-function compute() {
-     
+function computeFactorial() {
+    console.log('Factorial using recursive function');
+
     const readLine =
         require('readline')
             .createInterface({
@@ -28,4 +30,5 @@ function compute() {
     })
 }
 
-compute();
+//computeFactorial();
+module.exports = computeFactorial();
