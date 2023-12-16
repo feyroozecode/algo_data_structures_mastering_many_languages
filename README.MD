@@ -13,7 +13,7 @@ Mastering alogorithme and Data Structure in Python and Js
     1. [Factorial](day01/factorial.js) 
     2. [Palindrom](day01/palindro.js) Palindrom 
 - Day 03 => 
-    1. 
+    1. Binary Search
 - Day 04 =>
 
 - Day 05 =>

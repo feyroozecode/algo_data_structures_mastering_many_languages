@@ -1,3 +1,4 @@
+# Day 03 => Algo 1 -> Simple Binary Search
 # Binary Search 
 def binary_search(arr, target):
     low, high = 0, len(arr) -1
