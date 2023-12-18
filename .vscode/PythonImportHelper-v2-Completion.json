@@ -1,0 +1,65 @@
+[
+    {
+        "label": "binary_search",
+        "kind": 2,
+        "importPath": "day03.binary_search",
+        "description": "day03.binary_search",
+        "peekOfCode": "def binary_search(arr, target):\n    low, high = 0, len(arr) -1\n    while low <= high :\n        mid = (low + high ) // 2\n        if arr [mid] == target:\n            return mid\n        elif arr[mid] < target:\n          low = mid + 1\n        else :\n            high = mid -1",
+        "detail": "day03.binary_search",
+        "documentation": {}
+    },
+    {
+        "label": "mArray",
+        "kind": 5,
+        "importPath": "day03.binary_search",
+        "description": "day03.binary_search",
+        "peekOfCode": "mArray = [ 4, 5, 7 , 9 , 2 , 12]\nx = int(input(\"Enter the array you wan to search : \"))\nresult = binary_search(mArray, x)\nif result != -1:\n    print(\"Element is present at index : \"+ str(result))\nelse:\n    print(f\"{x} Not found  on array\")",
+        "detail": "day03.binary_search",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day03.binary_search",
+        "description": "day03.binary_search",
+        "peekOfCode": "x = int(input(\"Enter the array you wan to search : \"))\nresult = binary_search(mArray, x)\nif result != -1:\n    print(\"Element is present at index : \"+ str(result))\nelse:\n    print(f\"{x} Not found  on array\")",
+        "detail": "day03.binary_search",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "day03.binary_search",
+        "description": "day03.binary_search",
+        "peekOfCode": "result = binary_search(mArray, x)\nif result != -1:\n    print(\"Element is present at index : \"+ str(result))\nelse:\n    print(f\"{x} Not found  on array\")",
+        "detail": "day03.binary_search",
+        "documentation": {}
+    },
+    {
+        "label": "HashMap",
+        "kind": 6,
+        "importPath": "day03.hash_map",
+        "description": "day03.hash_map",
+        "peekOfCode": "class HashMap:\n    def __init__(self, size):\n        self.size = size\n        self.buckets = [None] * size\n    # The _hash_fun method takes a key as input and returns the hash value using the hash() function.\n    # The modulo operation is applied to ensure a hash value falls within the range of the hash map's size\n    def _hash_fun(self, key):\n        return hash(key) %  self.size\n    # The putKV method takes a key and a value as input.\n    # It appends the key-value pair to the list in the corresponding bucket.",
+        "detail": "day03.hash_map",
+        "documentation": {}
+    },
+    {
+        "label": "my_hash_map",
+        "kind": 5,
+        "importPath": "day03.hash_map",
+        "description": "day03.hash_map",
+        "peekOfCode": "my_hash_map = HashMap(size = 12)\nmy_hash_map.putKV(\"Ahmad\", 19)\nmy_hash_map.putKV(\"Hisham \", 23)\nmy_hash_map.putKV(\"Malick\", 27) \nprint(\"Age of Malick is \", my_hash_map.getKV(\"Malick\"))  \nmy_hash_map.removeKV(\"Ahmad\")\nif (my_hash_map.getKV(\"ahmad\")) is not None:\n    print(\"Age of Ahmad\", my_hash_map.getKV(\"Ahmad\"))\nelse :\n    print(\"Ahmad not Found\")",
+        "detail": "day03.hash_map",
+        "documentation": {}
+    },
+    {
+        "label": "linkedlistReversal",
+        "kind": 2,
+        "importPath": "day04.linkedin_reverse",
+        "description": "day04.linkedin_reverse",
+        "peekOfCode": "def linkedlistReversal(head):\n     if head == None or head.next == None:\n         return head \n     # Step 1: Reverse the next pointers \n     current  = head\n     previous = None\n     nextNode = None\n     while current is not None:\n         nextNode      = current.next\n         previous.next = previous ",
+        "detail": "day04.linkedin_reverse",
+        "documentation": {}
+    }
+]

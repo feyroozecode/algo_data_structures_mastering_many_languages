@@ -16,7 +16,7 @@ Mastering alogorithme and Data Structure in Python and Js
     1. [Binary Search](day03/binary_search.py)
     2. [Hashmap](day03/hash_map.py)
 - Day 04 =>
-
+1. []
 - Day 05 =>
 - Day 06 =>
 - Day 07 =>
