@@ -24,6 +24,8 @@ Mastering alogorithme and Data Structure in Python and Js
  1. [In Ordeer Tree](day05/in_ordeer_tree.js)
  2. [Pre Order Tree](day05/pre_order_tree.js)
 - Day 06 =>
+  1. [Buble Sort](day06/bubble_sort.py)
+  2. [Merge Sort](day06/merge_sort.py)
 - Day 07 =>
 
 ## WEEK 2
