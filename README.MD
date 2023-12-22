@@ -15,9 +15,14 @@ Mastering alogorithme and Data Structure in Python and Js
 - Day 03 => 
     1. [Binary Search](day03/binary_search.py)
     2. [Hashmap](day03/hash_map.py)
+
 - Day 04 =>
-1. []
+1. [LinkedList Classer](day04/linked_list_classer.py)
+2. [Linked List Reverse](day04/linked_list_reverse.py)
+ 
 - Day 05 =>
+ 1. [In Ordeer Tree](day05/in_ordeer_tree.js)
+ 2. [Pre Order Tree](day05/pre_order_tree.js)
 - Day 06 =>
 - Day 07 =>
 
